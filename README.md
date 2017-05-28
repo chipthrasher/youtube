@@ -6,4 +6,4 @@ Original source example (my own copy of this site):
 http://chipthrasher.com/yt-player/?v=8OrOWs4iISw
 
 Actual structure of the URL:  
-http://your-url.com/path/?v=INSERT_YOUTUBE_VIDEO_ID
+http://example.com/path/?v=INSERT_YOUTUBE_VIDEO_ID
