@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>YouTube</title>
+    <style>
+    body {
+      margin: 0px auto;
+      background: #111111;
+    }
+    .visualizer {
+      height: 100vh;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="visualizer">
+      <iframe width="80%" height="80%" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        function getParameterByName(name, url) {
+          if (!url) url = window.location.href;
+          name = name.replace(/[\[\]]/g, "\\$&");
+          var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+          if (!results) return null;
+          if (!results[2]) return '';
+          return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+        var id = getParameterByName('v');
+        $('iframe').attr('src','https://www.youtube.com/embed/' + id + '?iv_load_policy=3&fs=1');
+      });
+    </script>
+  </body>
+</html>
