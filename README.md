@@ -3,7 +3,7 @@ Clutterless one-page YouTube video player, which loads a YouTube video from a vi
 
 ## Example
 Original source example (my own copy of this site):  
-http://chipthrasher.com/yt-player/?v=8OrOWs4iISw
+https://chipthrasher.com/yt-player/?v=hAmZJ1dycZo
 
 Actual structure of the URL:  
-http://example.com/path/?v=INSERT_YOUTUBE_VIDEO_ID
+https://example.com/path/?v=INSERT_YOUTUBE_VIDEO_ID
