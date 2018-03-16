@@ -1,9 +1,2 @@
-# YTPlayer
-Clutterless one-page YouTube video player, which loads a YouTube video from a video ID in the URL.
-
-## Example
-Original source example (my own copy of this site):  
-https://chipthrasher.com/yt-player/?v=hAmZJ1dycZo
-
-Actual structure of the URL:  
-https://example.com/path/?v=INSERT_YOUTUBE_VIDEO_ID
+# YouTube Player
+This is a one-page YouTube video player. Format for videos is `https://chipthrasher.com/youtube?v=YOUTUBE_VIDEO_ID`. You can get the YouTube video ID from the original YouTube page. For instance, the YouTube video `https://youtube.com/watch?v=rpWbVwn_Lt8` has a video ID of `rpWbVwn_Lt8`.
